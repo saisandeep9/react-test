@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 import Upload from "./uplode";
+import Slider from "./slider";
 
 class App extends Component {
   state = {
@@ -19,7 +20,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Upload />
+        <Slider />
+        {/* <Upload /> */}
 
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />

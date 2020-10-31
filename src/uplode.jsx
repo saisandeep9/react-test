@@ -13,10 +13,15 @@ class Upload extends Component {
 
     // console.log(reader);
 
-    let data = new FormData();
-    data.append("my file", files, files.name);
+    // let data = new FormData();
+    // data.append("my file", files, files.name);
 
-    console.log("form data", data);
+    // let d = {
+    //   files: data,
+    // };
+    // console.log(d);
+
+    // console.log("form data", data);
 
     const formData = { file: e.target.result };
     console.log("form data", formData);
