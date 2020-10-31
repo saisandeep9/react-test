@@ -10,7 +10,7 @@ class App extends Component {
     Products: [],
     categories: [],
   };
-
+// https://github.com/saisandeep9/react-test.git
   // async componentDidMount() {
   //   console.log("products1");
   //   const data = await axios.get("http://localhost:3900/api/products");
