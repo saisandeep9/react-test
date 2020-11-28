@@ -2,7 +2,7 @@
   text-align: center;
 }
 body {
-  background-color: #f18c08f1;
+  background-color: #f18c08f1 !important;
 }
 
 .App-logo {
